@@ -1,0 +1,32 @@
+.card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 400ms ease-in-out 0s;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+
+.name-wrapper {
+  text-align: center;
+  font-weight: bold;
+}
+
+.image-wrapper {
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
